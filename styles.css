@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+ h2 {
+    font: bold 14px 'Time New Roman';
+ }
+
+ header, section, footer, aside, nav, article, hgroup {
+    display: block;
+}
+
+body {
+    text-align: center;
+    background: #EADBAD;
+}
+
+.agrupar {
+    border: 1px solid black;
+    width: 960px;
+    margin: 15px auto;
+    background: white;
+}
+
+.cabecera {
+    background: #FEFFA3;
+    border: 1px solid #999999;
+    padding: 20px;
+}
+
+.cabecera h1 {
+    text-align: left;
+}
+
+.cabecera img {
+    width: 90px;
+    display: block;
+}
+
+.navegacion {
+    background: #fad390;
+    padding: 15px 5px;
+    text-align: left;
+}
+
+.navegacion li {
+    list-style: none;
+    padding: 5px;
+    font: bold 14px verdana;
+    display: inline-block;
+}
+
+article {
+    background: #fffbcc;
+    border: 1px solid black;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+article p {
+    text-align: justify;
+}
+
+article footer {
+    text-align: right;
+    margin-top: 20px;
+}
+
+time {
+    color: #999;
+}
+
+.seccion {
+    margin: 20px;
+    width: 600px;
+    float: left;
+}
+
+.columna {
+    width: 30%;
+    float: left;
+    margin: 20px 0;
+}
+
+.columna blockquote {
+    border: 1px solid black;
+    padding: 40px;
+    margin-bottom: 20px;
+    background: #fffbcc;
+}
+
+img {
+    width: 400px;
+}
+
+.pie {
+    clear: both;
+    padding: 20px;
+    background: #2d3435;
+    color: white;
+    border: 1px solid #999999;
+}
+
